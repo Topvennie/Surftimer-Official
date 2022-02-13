@@ -62,7 +62,7 @@
 #define LIGHTBLUE 0x0D
 #define PINK 0x0E
 #define LIGHTRED 0x0F
-#define ORCHID 0x1A // not sure if this is orchid color in csgo.
+#define ORCHID 0x1A
 
 // Paths for folders and files
 #define CK_REPLAY_PATH "data/replays/"
@@ -104,23 +104,23 @@
 #define MAXZONES 128
 
 // Part of SMLib
-#define MAX_WEAPONS				48	// Max number of weapons availabl
+#define MAX_WEAPONS				48	// Max number of weapons available
 
 // Ranking Definitions
 #define MAX_PR_PLAYERS 1066
 #define MAX_SKILLGROUPS 64
 
 // UI Definitions
-#define HIDE_RADAR (1 << 12)
-#define HIDE_CHAT ( 1<<7 )
-#define HIDE_CROSSHAIR 1<<8
+#define HIDE_RADAR ( 1 << 12 )
+#define HIDE_CHAT ( 1 << 7 )
+#define HIDE_CROSSHAIR 1 << 8
 
 // Replay Definitions
 #define BM_MAGIC 0xBAADF00D
 #define BINARY_FORMAT_VERSION 0x02
-#define ADDITIONAL_FIELD_TELEPORTED_ORIGIN (1<<0)
-#define ADDITIONAL_FIELD_TELEPORTED_ANGLES (1<<1)
-#define ADDITIONAL_FIELD_TELEPORTED_VELOCITY (1<<2)
+#define ADDITIONAL_FIELD_TELEPORTED_ORIGIN ( 1 << 0 )
+#define ADDITIONAL_FIELD_TELEPORTED_ANGLES ( 1 << 1 )
+#define ADDITIONAL_FIELD_TELEPORTED_VELOCITY ( 1 << 2 )
 #define ORIGIN_SNAPSHOT_INTERVAL 500
 
 // Show Triggers

@@ -373,7 +373,7 @@ public void CL_OnEndTimerPress(int client)
 			if (!g_bMapSRVRecord[client] && !g_bMapFirstRecord[client] && !g_bMapPBRecord[client])
 			{
 				// for ck_min_rank_announce
-				db_currentRunRank(client);
+				db_currentRunRank(client, 0);
 			}
 		}
 		else if (style != 0)

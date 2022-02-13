@@ -1615,6 +1615,16 @@
 		"#format"	"{1:s}"
 		"en"		"{1} Record deleted"
 	}
+	"WipeSuccess"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{1} Player {2} has been wiped"
+	}
+	"WipeFailed"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"en"		"{1} Wipe of player {2} failed! Error (Query: {3}): {4}"
+	}
 	"InvalidRun"
 	{
 		"#format"	"{1:s},{2:s}"
